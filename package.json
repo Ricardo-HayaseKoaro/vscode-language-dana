@@ -1,0 +1,25 @@
+{
+    "name": "vscode-language-dana",
+    "displayName": "vscode-language-dana",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dana",
+            "aliases": ["Dana", "dana"],
+            "extensions": [".dn"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dana",
+            "scopeName": "source.dn",
+            "path": "./syntaxes/dana.tmLanguage.json"
+        }]
+    }
+}
